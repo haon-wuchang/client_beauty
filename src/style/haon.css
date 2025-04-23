@@ -1,0 +1,1820 @@
+/*****************************************/
+/*********     Footer             *********/
+/*****************************************/
+.footer-box{
+    /* border: 1px solid red; */
+    height: 300px;
+    padding: 50px 60px 30px;
+}
+.footer-top-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-top-left-img{
+    width: 100px;
+}
+.footer-top-right{
+    display: flex;
+}
+.footer-top-right-boxs >ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+}
+.footer-top-right-boxs{
+    /* border: 1px solid blue; */
+    padding-left: 40px;
+}
+.footer-top-right-boxs >ul>li:first-child{
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.footer-top-right-boxs >ul>li:not(.footer-top-right-boxs >ul>li:first-child){
+    color: gray;
+    padding-bottom: 4px;
+}
+.footer-middle-line1 >ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-size: 12px;
+    padding: 0;
+}
+.footer-middle-line1 >ul>li>a{
+    text-decoration: none;
+    color: gray;
+}
+.footer-middle-line2 > ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    font-size: 12px;
+    color: gray;
+    padding: 0;
+}
+.footer-middle-line2 > ul>li>span:first-child{
+    font-weight: 600;
+    /* border: 1px solid red; */
+    padding-right: 5px;
+}
+.footer-bottom-logo{
+    /* border: 1px solid red; */
+    padding-top: 40px;    
+}
+.footer-bottom-logo >span{
+    padding-right: 13px;
+}
+.footer-bottom-last{
+    /* border: 1px solid red; */
+    padding-top: 20px;
+    font-size: 12px;
+    color: gray;
+}
+
+/*****************************************/
+/*********     Login            *********/
+/*****************************************/
+.login-box{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+   margin-bottom: 30px;
+    height: 1000px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    
+}
+.login-box-left{
+    width: 50%;
+}
+.login-box-left > img{
+    width: 100%;
+}
+.login-box-right{
+    margin: 0 auto;
+    margin-top: 200px;
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 400px;
+    margin-left: 270px;
+}
+.login-box-right >h3{
+    font-size: 26px;
+}
+.login-box-right-top>span{
+    font-size: 13px;
+    padding: 0;
+    /* margin: 0; */
+    padding: 0 10px;
+    color: white;
+}
+.login-box-right-top >input {
+    display: block;
+    width: 380px;
+    height: 45px;
+    padding: 0 10px;
+    font-size: 12px;
+    border: 1px solid gainsboro;
+}
+.login-box-right-top >input:last-child{
+    margin-bottom: 30px;
+}
+.login-btn:hover{
+    cursor: pointer;
+}
+.login-btn{
+    /* width: 370px; */
+    width: 100%;
+    height: 45px;
+}
+.login-box-right-middle > button:first-child{
+    margin-bottom: 13px;
+}
+.login-btn2, .login-btn3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.login-box-right-middle-logo1{
+    font-size: 16px;
+}
+.login-box-right-middle-logo2{
+    font-size: 22px;
+}
+.login-btn2>span:last-child, .login-btn3>span:last-child{
+    margin-left: 10px;
+    letter-spacing: 0.5px;
+}
+.login-btn1{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border: 1px solid black;
+    font-size: 16px;
+    
+}
+.login-btn2{
+    background-color: rgb(25, 206, 96);
+    color: white;
+    font-weight: 600;
+    border: 1px solid rgb(25, 206, 96);
+}
+.login-btn3{
+    background: rgb(255, 210, 0);
+    border: 1px solid rgb(255, 210, 0) ;
+    font-weight: 600;
+}
+.login-btn4{
+    background-color: white;
+    color: gray;
+    border: 1px solid gainsboro;
+    font-weight: 600;
+}
+.login-cut{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 13px;
+    color: rgb(180, 180, 180);
+}
+.login-cut> span{
+    padding: 0 10px;
+}
+.login-bottom-box{
+    /* border: 1px solid red; */
+    padding-top: 30px;
+}
+.login-bottom-box>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: gray;
+}
+.login-bottom-box>ul>li>span{
+letter-spacing: 0.5px;
+}
+.login-bottom-box>ul>li .userinfo-find-btn{
+    color: rgb(62, 62, 62);
+    font-weight: 600;
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+/*****************************************/
+/*********     Signup            *********/
+/*****************************************/
+/* .signup-box{
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.signup-box >h5{
+    font-size: 19px;
+}
+.signup-box>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.signup-box>ul>li>label{
+    display: block;
+    font-size: 14px;
+}
+.signup-box>ul>li{
+    margin-bottom: 10px;
+}
+.signup-box>ul>li:not(.signup-email-line)>input{
+    width: 492px;
+    margin-bottom: 8px;
+    height: 35px;
+    font-size: 12px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.signup-desc{
+    border: 1px solid black;
+    overflow-y: scroll;
+    height: 300px;
+    font-size: 13px;
+}
+.signup-email-line >input{
+    width: 230px;
+    margin-bottom: 8px;
+    height: 35px;
+    font-size: 12px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.signup-email-line>span{
+    padding: 0 10px;
+}
+.signup-email-line >select {
+    width: 230px;
+    height: 35px;
+}
+.signup-check-box>ul{
+    list-style-type: none;
+    padding: 0;
+}
+.signup-check-box>ul>li>span{
+    font-size: 13px;
+    padding-left: 10px;
+    color: gray;
+}
+.signup-check-box>ul>li>input{
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+}
+.signup-check-box>ul>li:nth-child(5){
+    margin-top: 10px;
+}
+.signup-check-box>ul>li:nth-child(5),
+.signup-check-box>ul>li:nth-child(6),
+.signup-check-box>ul>li:nth-child(7){
+    font-size: 13px;
+    color: gray;
+    padding: 0 10px;
+}
+.signup-check-box>ul>li:nth-child(7){
+    padding-bottom: 20px;
+}
+.signup-btn{
+    width: 100%;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    height: 45px;
+    margin-top: 30PX;
+    
+}
+.signup-check-box>ul>li:first-child{
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+    display: flex;
+    text-align: center;
+}
+.signup-check-box>ul>li:first-child>span{
+    font-size: 14px;
+    color: black;
+    font-weight: 500;    
+}
+.signup-check-box>ul>li:first-child>input{
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
+.signup-check-box>ul {
+    border: 1px solid gray;
+}
+.signup-check-box>ul>li:nth-child(2){
+    padding-top: 10px;
+} */
+
+/*****************************************/
+/*********     Products           *********/
+/*****************************************/
+/* .product-all-box{
+    padding: 0 60px;
+    margin-top: 30px;
+}
+.product-all-top>h5{
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.product-all-top>h5:hover{
+    cursor: pointer;
+}
+.product-all-top>ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 10px 0 30px ;
+    border-bottom: 1px solid gainsboro;
+}
+.product-all-top>ul>li:hover{
+    cursor: pointer;
+}
+.product-all-top>ul>li{
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 3px;
+    background-color: rgb(238, 238, 238);
+    font-size: 13px;
+    padding: 5px 10px;
+    color: gray;
+}
+.product-all-top-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: gray;
+    text-align: center;
+}
+.product-all-top-flex>div:first-child{
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+.product-all-top-flex>div:first-child>span:first-child{
+    font-weight: 600;
+    padding-right: 5px;
+}
+.product-all-top-flex>div:last-child{
+    display: flex;
+    border: 1px solid red;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.product-all-top-flex-square:hover{
+    cursor: pointer;
+}
+.product-all-top-flex-square{
+    font-size: 23px;
+    padding: 3px;
+}
+.product-all-top-flex>div:last-child>select{
+    margin-left: 10px;
+    width: 100px;
+    border: 1px solid gainsboro;
+    color: gray;
+}
+.product-box9{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid gray;
+    gap: 40px;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.square9:hover{
+    cursor: pointer;
+}
+.square9{
+    border: 1px solid red;
+    width: 410px;     
+}
+.square9>img{
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px; 
+}
+.square9-heart{
+    border: 1px solid red;
+    position: absolute;
+    bottom: 10px;
+    font-size: 25px;
+    left: 435px;
+}
+.product-title{
+    background-color: red;
+    font-size: 15px;
+    font-weight: 700;
+}
+.product-price{
+    font-size: 14px;
+    color: gray;
+    text-decoration: line-through;
+    margin: 0;
+    padding: 10px 0 5px;
+}
+.product-sale{
+    border: 1px solid black;
+    background-color: black;
+    color: orange;
+    font-size: 13px;
+    padding: 0;
+    font-weight: 600;
+}
+.product-sale-price{
+    font-weight: 600;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.product-box4{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+    gap: 10px;
+    justify-content: space-between;
+    text-align: center;   
+    border-bottom: 1px solid gray;
+
+}
+.square4:hover{
+    cursor: pointer;
+}
+.square4{
+    border: 1px solid red;
+    width: 560px;
+    margin-bottom: 80px;
+}
+.square4>img{
+    width: 100%;
+    position: relative;
+}
+.square4-heart{
+    position: absolute;
+    bottom: -160px;
+    font-size: 25px;
+    left: 580px;
+}
+.product-box2{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+    gap: 10px;
+    justify-content: space-between;
+    text-align: center;  
+    border-bottom: 1px solid gray;
+
+}
+.square2:hover{
+    cursor: pointer;
+}
+.square2{
+    width: 860px;
+    margin-bottom: 80px;
+    border: 1px solid red;
+    padding-bottom: 70px;
+}
+.square2>img{
+    width: 100%;
+} */
+/*****************************************/
+/*********     Mypage           *********/
+/*****************************************/
+.mypage-box{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 1200px;
+    padding-bottom: 70px;
+}
+.mypage-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.mypage-top:hover{
+    cursor: pointer;
+}
+.mypage-top>div:first-child{
+    font-size: 20px;
+    font-weight: 700;
+}
+.mypage-top>div:last-child>button:hover{
+    cursor: pointer;
+}
+.mypage-top>div:last-child > button{
+    background-color: white;
+    border: 1px solid gainsboro;
+    color: gray;
+    padding: 5px 5px;
+    font-size: 12px;
+}
+.mypage-top>div:last-child > button:first-child{
+    margin-right: 5px;
+}
+.mypage-top2{
+    border: 1px solid gainsboro;
+    background-color: rgb(245, 245, 245);
+}
+.mypage-top2>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0; */
+    margin: 0;
+    padding: 30px 0;
+}
+.mypage-top2>ul>li>span:hover{
+    cursor: pointer;
+}
+.mypage-top2>ul>li{
+    /* border: 1px solid blue; */
+    width: 300px;
+    border-right: 1px solid gainsboro;
+    padding: 0 30px;
+}
+.mypage-top2>ul>li:first-child>h4, .mypage-top2>ul>li:first-child>h5, 
+.mypage-top2>ul>li:first-child>span{
+    margin: 0;
+    padding: 0;
+}
+.mypage-top2>ul>li:first-child>h4:hover{
+    cursor: pointer;
+}
+.mypage-top2>ul>li:first-child>h4{
+    font-size: 20px;
+}
+.mypage-top2>ul>li:first-child>h5{
+   margin-top: 8px;
+   color: gray;
+   font-weight: 400;
+   margin-bottom: 40px;
+}
+.mypage-top2>ul>li:first-child>span{
+    border: 1px solid gainsboro;
+    background: gainsboro;
+    font-size: 14px;
+}
+.mypage-top2>ul>li:nth-child(2)>p,
+.mypage-top2>ul>li:nth-child(3)>p,
+.mypage-top2>ul>li:nth-child(4)>p{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 60px;
+}
+.mypage-top2>ul>li>p:hover{
+    cursor: pointer;
+}
+.mypage-top2>ul>li:nth-child(2)>span,
+.mypage-top2>ul>li:nth-child(3)>span,
+.mypage-top2>ul>li:nth-child(4)>span{
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: right;
+    padding-left: 190px;
+    /* border: 1px solid red; */
+}
+.mypage-cate{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mypage-cate>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    font-size: 15px;
+    
+}
+.active-order-date{
+    background-color: black;
+    color: white;
+}
+.mypage-cate>ul>li:hover{
+    cursor: pointer;
+}
+.mypage-cate>ul>li{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+.mypage-desc{
+    border: 1px solid gainsboro;
+    margin-bottom: 30px;
+    padding: 20px 20px;
+    font-size: 15px;
+}
+.mypage-desc>p{
+    margin: 0;
+    padding-bottom: 5px;
+}
+.mypage-desc>p>span{
+    font-weight: 700;
+}
+.mypage-middle-box{
+    border: 4px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.mypage-middle-box>div{
+    width: 600px;
+    padding: 15px 20px;
+}
+.mypage-middle-box>div:first-child{
+    border-right: 1px solid gainsboro;
+}
+.mypage-middle-box>div>ul{
+    list-style-type: none;
+}
+.mypage-middle-box>div>ul>li{
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 14px;
+    align-items: center;
+}
+.mypage-middle-box>div>ul>li:not(:last-child){
+    padding-bottom: 10px;
+}
+.mypage-middle-box>div>ul>li>span{
+    margin: 0;
+    padding: 0;
+}
+.mypage-middle-box>div>ul>li>button{
+    margin: 0;
+    padding: 0;
+}
+.mypage-middle-box>div>ul>li>span:first-child{
+    /* border: 1px solid red; */
+    width: 360px;
+    color: rgb(51, 51, 51);
+}
+.mypage-middle-box>div>ul>li>span:nth-child(2){
+    /* border: 1px solid blue; */
+    width: 60px;
+    font-weight: 600;
+    text-align: right;
+    margin-right: 20px;
+}
+.mypage-middle-box>div>ul>li>button{
+    border: 1px solid gainsboro;
+    background-color: white;
+    padding: 3px 8px;
+}
+.mypage-bottom-box{
+    border: 1px solid gainsboro;
+}
+.mypage-bottom-box>div:first-child{
+    border-bottom: 1px solid gainsboro;
+    padding: 13px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(245,245,245);
+}
+.mypage-bottom-box>div:first-child>span:last-child{
+    font-weight: 100;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.mypage-bottom-box>div:last-child>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    padding: 35px 0;
+}
+.mypage-bottom-box>div:last-child>ul>li{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    width: 240px;
+}
+.mypage-bottom-box>div:last-child>ul>li:not(:last-child){
+
+    border-right: 1px solid gainsboro;
+}
+.mypage-bottom-box>div:last-child>ul>li>p{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.mypage-bottom-box>div:last-child>ul>li>span{
+    margin: 0;
+    font-size: 25px;
+}
+.mypage-bottom-box>div:last-child>ul>li:last-child>li{
+    /* border: 1px solid red; */
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.mypage-bottom-box>div:last-child>ul>li:last-child>li>span{
+    font-weight: 500;
+}
+
+/*****************************************/
+/*********    Mypage 회원정보수정          *********/
+/*****************************************/
+.mypage-update-info-all{
+    /* border: 1px solid red; */
+}
+.mypage-update-info-title{
+    /* border: 1px solid red; */
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.mypage-update-info-table, .mypage-update-info-table2{
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    border: 1px solid gainsboro;
+    margin-bottom: 30px;
+}
+.mypage-update-info-table>tr, .mypage-update-info-table2>tr{
+    border-bottom: 1px solid gainsboro;
+}
+ .mypage-update-info-table2>tr>td:first-child{
+    padding: 10px 20px;
+ }
+.mypage-update-info-table>tr>td {
+    /* border: 1px solid rgb(19, 19, 19); */
+    padding: 10px 20px;
+}
+.mypage-update-info-table>tr>td>span{
+    font-size: 14px;
+    margin-left: 5px;
+    color: white;
+}
+.mypage-update-info-table2>tr>td:first-child{
+    background-color: rgb(245,245,245);
+    width: 150px;
+    border-right: 1px solid gainsboro;
+    font-size: 14px;
+}
+.mypage-update-info-table>tr>td:first-child
+{
+    background-color: rgb(245,245,245);
+    width: 150px;
+    border-right: 1px solid gainsboro;
+    font-size: 14px;
+    
+}
+.mypage-update-info-table>tr>td:last-child,
+.mypage-update-info-table2>tr>td:last-child{
+    width: 1000px;
+    padding: 10px;
+    
+}
+.mypage-update-info-table>tr>td>input{
+    border: 1px solid gainsboro;
+    height: 20px;
+    width: 200px;
+}
+.mypage-update-info-table>tr>td>li{
+    list-style-type: none;
+}
+.mypage-update-info-table>tr>td>li:not(:last-child){
+    padding-bottom: 10px;
+}
+.mypage-update-info-table>tr>td>li>input{
+    border: 1px solid gainsboro;
+    height: 20px;
+    width: 150px;
+}
+.mypage-update-info-table>tr>td>li>button{
+    margin-left: 10px;
+    background-color: white;
+    border: 1px solid gainsboro; 
+
+}
+.update-info-success{
+    background-color: gainsboro;
+    color: gray;
+}
+.update-info-active{
+    background-color: white;
+}
+.mypage-update-info-table>tr:nth-child(4)>td>li>button:nth-child(3),
+.mypage-update-info-table>tr:nth-child(4)>td>li>button:nth-child(4){
+    border: 1px solid rgb(209, 205, 194);
+    background-color: rgb(240, 238, 232);
+    margin-left: 5px;
+}
+.mypage-update-info-table>tr:nth-child(1)>td:nth-child(2),
+.mypage-update-info-table>tr:nth-child(3)>td:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+.mypage-update-info-table2>tr>td>button{
+    border: 1px solid rgb(209, 205, 194);
+    background-color: rgb(240, 238, 232);
+    margin-left: 5px;
+}
+.mypage-update-info-table>tr>td>button{
+    border: 1px solid rgb(209, 205, 194);
+    background-color: rgb(240, 238, 232);
+}
+.mypage-update-info-table>tr>td:nth-child(2)>button{
+    /* background-color: red; */
+    margin-left: 5px;
+}
+.mypage-update-info-table>tr>td>li:nth-child(2)>input,
+.mypage-update-info-table>tr>td>li:nth-child(3)>input{
+    width: 500px;
+}
+.mypage-update-info-add-tablebox > div:first-child{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 0;
+}
+.mypage-update-info-table2>tr:first-child>td:nth-child(2)>span{
+    color: rgb(61, 61, 61);
+    /* background-color: red; */
+
+}
+.mypage-update-info-table2>tr:first-child>td:nth-child(2)>input{
+    border: 1px solid gainsboro;
+
+}
+.mypage-update-info-table2>tr:nth-child(2)>td:last-child>input{
+    width: 70px;
+    border: 1px solid gainsboro;
+}
+.mypage-update-info-table2>tr:nth-child(2)>td:last-child>span{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(61, 61, 61);
+}
+.mypage-update-info-btns{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.mypage-update-info-btns>div>button{
+    padding: 10px 7px;
+    border: 1px solid gainsboro;
+    background-color: white;
+}
+.mypage-update-info-btns>div:last-child>button:last-child{
+    margin-left: 10px;
+}
+
+/*****************************************/
+/*********   주문내역  - 모든탭 내용 다 똑같고 타이틀이름만 바꾸셈     *********/
+/*****************************************/
+.mypage-title{
+    border-bottom: 1px solid gainsboro;
+}
+.mypage-order-top-tab{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+}
+.mypage-order-top-tab>ul{
+    list-style-type: none;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    padding: 0; 
+    font-size: 15px;
+    font-weight: 600;
+}
+.mypage-order-top-tab>ul>li:hover{
+    cursor: pointer;
+}
+.mypage-order-top-tab>ul>li:first-child{
+    border-bottom: 2px solid black;
+    color: black;
+
+}
+.mypage-order-top-tab>ul>li{
+    padding: 0;
+    border-bottom: 2px solid gray;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: gray;
+}
+.mypage-order-top-tab>ul>li>span:last-child{
+    margin-left: 5px;
+    letter-spacing: 1px;
+}
+.mypage-order-select-box{
+    border: 4px solid gainsboro;
+    padding: 15px 50px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+.mypage-order-select-box>select{
+    border: 1px solid gainsboro;
+    padding: 5px 5px;
+    width: 120px;
+}
+.mypage-order-select-box>ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 40px;
+}
+.mypage-order-select-box>ul>li:hover{
+    cursor: pointer;
+}
+.mypage-order-select-box>ul>li{
+    border: 1px solid gainsboro;
+    padding: 5px 7px;
+    font-size: 14px;
+}
+.mypage-order-select-box>div{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-left: 40px;
+}
+.mypage-order-select-box>div>input{
+    border: 1px solid gainsboro;
+    padding: 5px 10px;
+    width: 180px;
+    padding-left: 20px;
+}
+
+.mypage-order-select-box>div>span:nth-child(2){
+    padding: 0 30px;
+}
+.mypage-order-select-box>div>span:last-child{
+    padding-left: 120px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.mypage-order-select-desc{
+    list-style-type: none;
+    padding: 0;
+    font-size: 13px;
+    color: gray;
+}
+.mypage-order-select-desc>li{
+    padding-bottom: 3px;
+}
+.mypage-order-bottom-all>div:first-child{
+    margin-top: 50px;
+    
+}
+.mypage-order-bottom-all>div>table{
+    border-collapse: collapse;
+    border: 1px solid gainsboro;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+}
+.mypage-order-bottom-all>div>table>tr{
+    border: 1px solid gainsboro;
+    
+}
+.mypage-order-bottom-all>div>table>tr:first-child{
+    background-color: rgb(245, 245, 245);
+    color: gray;
+    
+}
+.mypage-order-bottom-all>div>table>tr:first-child>td{
+    border-right: 1px solid gainsboro;
+}
+.mypage-order-bottom-all>div>table>tr>td{
+    padding: 10px 20px;
+
+}
+.mypage-order-table-info>td:nth-child(3){
+    padding :10px 0;
+    display: flex;
+    align-items: center;
+}
+.mypage-order-table-info>td:nth-child(3)>img{
+    height: 130px;
+}
+.mypage-order-table-info>td:nth-child(3)>span{
+    margin-left: 5px;
+}
+.mypage-order-page{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mypage-order-table-info>td>button:hover{
+    cursor: pointer;
+}
+.mypage-order-table-info>td:nth-child(7)>button{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 5px;
+}
+.mypage-order-table-info>td:nth-child(7)>button:not(:last-child){
+    margin-bottom: 5px;
+}
+/*****************************************/
+/*********    Mypage 관심상품탭         *********/
+/*****************************************/
+.mypage-wish-all > div> span{
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    color: blue;
+}
+.mypage-wish-table{
+    margin-top: 30px;
+    width: 100%;
+}
+.mypage-wish-table >table{
+    border-collapse: collapse;
+    border: 1px solid gainsboro;
+    width: 100%;
+    text-align: center;
+}
+.mypage-wish-table >table>tr:first-child{
+    border: 1px solid gainsboro;
+    background-color: rgb(245 ,  245 ,245);
+    
+}
+.mypage-wish-table >table>tr>td{
+    padding: 10px 0;
+    
+}
+.mypage-wish-table >table>tr>td{
+    border-right: 1px solid gainsboro;
+}
+.mypage-wish-table >table>tr:first-child>td:first-child{
+    /* width: 50px; */
+    width: 700px;
+}
+
+.mypage-wish-table >table>tr>td>img{
+    height: 130px;
+}
+.mypage-wish-table-info>td:nth-child(1){
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.mypage-wish-table >table>tr>td>span{
+    margin-left: 10px;
+}
+.mypage-wish-table >table>tr:first-child>td:nth-child(2),
+.mypage-wish-table >table>tr:first-child>td:nth-child(3){
+    width: 150px;
+}
+.mypage-wish-table-info>td:nth-child(3){
+    padding: 0 20px;
+    text-align: center;
+    /* background-color: red; */
+}
+.mypage-wish-table-info{
+    border-bottom: 1px solid gainsboro;
+}
+.mypage-wish-table-info>td>button:hover{
+    cursor: pointer;
+}
+.mypage-wish-table-info>td:nth-child(3)>button{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 5px;
+}
+.mypage-wish-table-info>td:nth-child(3)>button:not(:last-child){
+    margin-bottom: 5px;
+}
+.mypage-wish-btns{
+    margin-top: 30px;
+    text-align: right;
+}
+.mypage-wish-btns>button{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px 20px;
+}
+.mypage-wish-btns>button:first-child{
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.mypage-wish-page{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*****************************************/
+/*********    Mypage 게시물관리탭         *********/
+/*****************************************/
+.mypage-review-write{
+    margin-top: 30px;
+}
+.mypage-review-write > table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+.mypage-review-write > table>tr>td>img{
+    height: 130px;
+}
+.mypage-review-write > table>tr{
+    border: 1px solid gainsboro;
+}
+.mypage-review-write > table>tr:first-child{
+    background-color: rgb(245, 245, 245);
+}
+.mypage-review-write > table>tr>td{
+    padding: 10px 0;
+    border-right: 1px solid gainsboro;
+    
+}
+.mypage-review-write > table>tr>td:nth-child(1){
+    width: 200px;
+}
+.mypage-review-write > table>tr>td:nth-child(2){
+    width: 630px;
+}
+.mypage-review-write > table>tr>td:nth-child(3){
+    width: 100px;
+}
+.mypage-review-write > table>tr>td:nth-child(4){
+    width: 150px;
+}
+.mypage-review-write > table>tr>td:nth-child(5){
+    width: 200px;
+}
+.mypage-review-write > table>tr>td:nth-child(2){
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.mypage-review-write-2nd>td:last-child:hover{
+    cursor: pointer;
+    background-color: rgb(240, 238, 232);
+}
+
+.mypage-review-write-page{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.mypage-review-writed-select{
+    padding: 10px 0;
+}
+.mypage-review-writed-select>select{
+    border: 1px solid gainsboro;
+
+}
+.mypage-review-writed{
+    /* border: 1px solid red; */
+}
+.mypage-review-writed>table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+.mypage-review-writed>table>tr{
+    border: 1px solid gainsboro;
+
+}
+.mypage-review-writed>table>tr:first-child{
+    background-color: rgb(245 ,  245 ,245);
+    
+}
+.mypage-review-writed>table>tr>td{
+    padding: 10px 0;
+    border-right: 1px solid gainsboro;
+}
+.mypage-review-writed-page{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*****************************************/
+/*********    Mypage 배송지관리         *********/
+/*****************************************/
+.mypage-delivery-table{
+ margin-top: 30px;
+}
+.mypage-delivery-table>table{
+    border-collapse: collapse;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+.mypage-delivery-table>table>tr{
+    border: 1px solid gainsboro;
+}
+.mypage-delivery-table>table>tr:first-child{
+    background-color: rgb(245, 245, 245);
+}
+.mypage-delivery-table>table>tr>td{
+    border-right: 1px solid gainsboro;
+    padding: 10px 0;
+}
+.mypage-delivery-table>table>tr>td>button{
+    margin-left: 30px;
+    background-color: rgb(240 , 238, 232);
+    border: 1px solid rgb(240 , 238, 232);
+    padding: 5px 10px;
+}
+.mypage-delivery-btns{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.mypage-delivery-btns>button{
+    padding: 10px 15px;
+    background-color: white;
+    border: 1px solid gainsboro;
+
+}
+.mypage-delivery-btns>button:first-child{
+    margin-right: 10px;
+    background-color: rgb(240 , 238, 232);
+    border: 1px solid rgb(240 , 238, 232);
+}
+.mypage-delivery-desc{
+    border: 1px solid gainsboro;
+    margin-top: 60px;
+    /* padding: 0 10px; */
+    width: 100%;
+}
+.mypage-delivery-desc>div{
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid gainsboro;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(245 ,  245 ,245);
+    padding-left: 10px;
+}
+.mypage-delivery-desc>ul{
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0 20px;
+    color: gray;
+}
+.delivery-write-form{
+    border: 1px solid gray;
+    width: 500px;
+    margin: 0 auto;
+    /* height: 600px; */
+    padding-top: 20px;
+    height: 400px;
+    /* position: fixed; */
+}
+.delivery-write-form>ul{
+    list-style-type: none;
+    padding: 10px 0 10px 30px;
+    margin: 0;
+}
+.delivery-write-form>ul>li{
+    display: flex;
+    align-items: center;
+    /* border-bottom: 1px solid gainsboro; */
+    padding: 5px;
+}
+.delivery-write-form>ul>li>label{
+    /* border: 1px solid red; */
+    width: 100px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.delivery-write-form>ul>li>input,.delivery-write-form>ul>li>div>input{
+    border: 1px solid gray;
+    height: 20px;
+    width: 300px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.delivery-write-form>ul>li>div>div>button{
+    background-color: rgb(240 , 238, 232);
+    border: 1px solid rgb(240 , 238, 232);
+}
+.delivery-write-form>ul>li>div>div{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-bottom: 5px;
+}
+.delivery-write-form>ul>li>div>div>input{
+    border: 1px solid gray;
+    height: 20px;
+    width: 100px;
+    display: block;
+    margin-right: 10px;
+}
+.delivery-write-form>ul>p{
+    /* color: white; */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.mypage-delivery-form-check{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.mypage-delivery-write-btns{
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+}
+.mypage-delivery-write-btns>button{
+    padding: 10px 30px;
+    background-color: white;
+    border: 1px solid gainsboro;
+}
+.mypage-delivery-write-btns>button:first-child{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    margin-right: 10px;
+}
+/*****************************************/
+/*********    Mypage 적립금         *********/
+/*****************************************/
+.mypage-money-all-top{
+    display: flex;
+    border: 4px solid gainsboro;
+    margin-top: 30px;
+}
+.mypage-money-all-top>div{
+    width: 600px;
+    padding: 20px 40px;
+}
+.mypage-money-all-top>div:first-child{
+    border-right: 1px solid gainsboro;
+}
+.mypage-money-all-top>div>ul{
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0;
+}
+.mypage-money-all-top>div>ul>li{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.mypage-money-tab{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.mypage-money-tab>li:first-child{
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+}
+.mypage-money-table{
+    margin-top: 30px;
+}
+.mypage-money-table>table, .mypage-coupon-table>table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}
+.mypage-money-table>table>tr:first-child,
+ .mypage-coupon-table>table>tr:first-child{
+    background-color: rgb(245 ,  245 ,245);
+}
+.mypage-money-table>table>tr , .mypage-coupon-table>table>tr{
+    border: 1px solid gainsboro;
+}
+.mypage-money-table>table>tr>td, .mypage-coupon-table>table>tr>td{
+    border-right: 1px solid gainsboro;
+    padding: 10px 0;
+}
+.mypage-money-table>table>tr>td:first-child{
+    width: 200px;
+}
+.mypage-money-table>table>tr>td:nth-child(2){
+    width: 200px;
+}
+.mypage-money-table>table>tr>td:nth-child(3){
+    width: 600px;
+}
+.mypage-money-page{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mypage-money-desc{
+    border: 1px solid gainsboro;
+}
+.mypage-money-desc>h5{
+    margin: 0;
+    padding: 10px 20px;
+    border-bottom: 1px solid gainsboro;
+    background-color: rgb(245 ,  245 ,245);
+}
+.mypage-money-desc>ul{
+    padding: 0 20px;
+}
+.mypage-money-desc>ul>li{
+    list-style-type: none;
+    font-size: 13px;
+    margin-bottom: 3px;
+    color: gray;
+}
+/*****************************************/
+/*********    Mypage 쿠폰        *********/
+/*****************************************/
+.mypage-coupon-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.mypage-coupon-top>span:first-child{
+    font-weight: 600;
+    font-size: 17px;
+}
+.mypage-coupon-top>span:last-child{
+    font-size: 14px;
+    color: gray;
+}
+.mypage-coupon-middle>h5{
+    margin: 0;
+    padding: 0;
+}
+.mypage-coupon-middle>div{
+    border: 1px solid gainsboro;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.mypage-coupon-middle>div>div{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid red; */
+    /* margin: 0 auto; */
+    padding: 0 300px;
+    margin-bottom: 10px;
+}
+.mypage-coupon-middle>div>div>input{
+    width: 550px;
+    text-align: center;
+    margin-right: 10px;
+    height: 34px;
+    border: 1px solid gainsboro;
+}
+.mypage-coupon-middle>div>div>button{
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.mypage-coupon-table>table>tr>td>div>span{
+    border: 1px solid gainsboro;
+    background-color: rgb(240 , 238, 232);
+    padding: 3px 5px;
+    font-size: 13px;
+}
+.mypage-coupon-table>table>tr>td>div>span:hover{
+    cursor: pointer;
+}
+/*****************************************/
+/*********     admin           *********/
+/*****************************************/
+.admin-all{
+    margin: 0 auto;
+    width: 1200px;
+}
+.admin-flex{
+    display: flex;
+    /* justify-content: space-between; */
+    text-align: center;
+    margin-top: 30px;
+}
+.admin-flex>form{
+    /* border: 1px solid red; */
+}
+.admin-flex>form>ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.admin-flex>form>ul>li{
+    margin-bottom: 5px;
+}
+.admin-flex>form>ul>li:not(:nth-child(6))>label{
+    /* background-color: red; */
+    width: 100px;
+    display: inline-block;
+}
+.admin-flex>form>ul>li:nth-child(6){
+    display: flex;
+    align-items: center;
+}
+.admin-flex>form>ul>li:nth-child(6)>label{
+    margin-right: 10px;
+}
+.admin-flex>form>ul>li:last-child{
+    margin-top: 20px;
+}
+.admin-flex>form>ul>li:last-child>button{
+    width: 100px;
+    padding: 5px ;
+}
+.admin-flex>form>ul>li:last-child>button:first-child{
+    color: rgb(0, 0, 0);
+    background-color: rgb(209, 205, 194);
+    border : 1px solid rgb(209, 205, 194);
+    margin-right: 10px;
+}
+.admin-flex>form>ul>li:last-child>button:last-child{
+    background-color: white;
+    border: 1px solid gray;
+}
+.admin-flex>div{
+    margin-left: 30px;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+.admin-flex>div>table{
+    border: 1px solid gainsboro;
+    border-collapse: collapse;
+
+}
+.admin-flex>div>table>tr>td{
+    padding: 10px;
+    border: 1px solid gainsboro;
+
+}
+.admin-tab{
+    display: flex;
+    gap: 20px;
+}
+.admin-title{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.admin-none{
+    padding: 5px;
+}
+
+/* 페이지네이션  */
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 80px;
+
+    .page-item {
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .page-link {
+        color: rgb(139, 139, 139);
+        padding: 5px 10px;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .active .page-link,
+    .page-item:hover .page-link {
+        color: rgb(0, 0, 0);
+    }
+
+    /* 이전/다음 버튼 스타일 */
+    .prev,
+    .next {
+        cursor: pointer;
+        opacity: 0.6;
+        transition: opacity 0.3s ease;
+        margin: 0 20px;
+    }
+
+    .prev:hover,
+    .next:hover {
+        opacity: 1;
+    }
+
+    .prev a,
+    .next a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+}
+
+/*****************************************/
+/*********     brand story             *********/
+/*****************************************/
+.brand-story-all{
+    padding:30px 70px;
+}
+.brand-story-all>div:first-child{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.brand-story-all>div:first-child>img{
+    border-radius: 20px;
+    width: 100%;
+}
+.brand-story-all>div:nth-child(2){
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+.brand-story-all>div:nth-child(2)>h4{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.brand-story-all>div:nth-child(2)>h5{
+    margin: 0;
+    padding: 0;
+    color: gray;
+    font-weight: 300;
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+.brand-story-all>div:nth-child(3){
+    /* border: 1px solid red; */
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+}
+.brand-story-all>div:nth-child(3)>img{
+    border-radius: 20px;
+    margin-left: 40px;
+}
+.brand-story-all>div:nth-child(3) h4{
+    font-size: 20px;
+    margin: 0;
+    padding: 0 0 20px ;
+}
+.brand-story-all>div:nth-child(3) h5{
+    margin: 0;
+    padding: 0 0 7px ;
+    font-weight: 300;
+    font-size: 15px;
+    color: gray;
+}
+
+.brand-story-all>div:nth-child(4){
+    /* border: 1px solid red; */
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+    margin-top: 60px;
+}
+.brand-story-all>div:nth-child(4)>img{
+    border-radius: 20px;
+    margin-right: 40px;
+}
+.brand-story-all>div:nth-child(4) h4{
+    font-size: 20px;
+    margin: 0;
+    padding: 0 0 20px ;
+}
+.brand-story-all>div:nth-child(4) h5{
+    margin: 0;
+    padding: 0 0 7px ;
+    font-weight: 300;
+    font-size: 15px;
+    color: gray;
+}
+.brand-story-all>div:nth-child(5){
+    margin-top: 140px;
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+.brand-story-all>div:nth-child(5)>img{
+    border-radius: 20px;
+    width: 100%;
+}
+.brand-story-all>div:nth-child(5)>div{
+    position: absolute;
+    top: 50%;
+    left: 590px;
+    text-align: center;
+}
+.brand-story-all>div:nth-child(5)>div>h4{
+    font-size: 24px;
+    margin: 0;
+    padding: 0 0 20px;
+    color: rgb(59, 59, 59);
+}
+.brand-story-all>div:nth-child(5)>div>h5{
+    margin: 0;
+    padding: 0 0 10px;
+    font-weight: 300;
+    color: rgb(59, 59, 59);
+}
+.brand-story-all>div:nth-child(5)>div>button{
+    margin-top: 10px;
+    border: 1px solid rgb(59, 59, 59);
+    background: none;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    color: rgb(59, 59, 59);
+    margin-left: 45px;
+}
+.brand-story-all>div:nth-child(6){
+    margin-top: 60px;
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+.brand-story-all>div:nth-child(6)>img{
+    border-radius: 20px;
+    width: 100%;
+}
+.brand-story-all>div:nth-child(6)>div{
+    position: absolute;
+    top: 50%;
+    left: 590px;
+    text-align: center;
+}
+.brand-story-all>div:nth-child(6)>div>h4{
+    font-size: 24px;
+    margin: 0;
+    padding: 0 0 20px;
+    color: rgb(59, 59, 59);
+}
+.brand-story-all>div:nth-child(6)>div>h5{
+    margin: 0;
+    padding: 0 0 10px;
+    font-weight: 300;
+    color: rgb(59, 59, 59);
+}
+.brand-story-all>div:nth-child(6)>div>button{
+    margin-top: 10px;
+    border: 1px solid rgb(59, 59, 59);
+    background: none;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    color: rgb(59, 59, 59);
+    margin-left: 45px;
+}

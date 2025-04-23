@@ -1,0 +1,70 @@
+{
+    "mainTopSlide": [
+        { "image": "images/ad1.jpeg" },
+        { "image": "images/ad2.jpeg" },
+        { "image": "images/ad3.jpeg" },
+        { "image": "images/ad4.jpeg" },
+        { "image": "images/ad5.jpeg" }
+    ],
+    "mainCategory": [
+        {
+            "id" : "all",
+            "img": "images/cate_all.jpg",
+            "title": "전체"
+        },
+        {
+            "id" : 100,
+            "img": "images/cate_skincare.jpg",
+            "title": "스킨케어"
+        },
+        {
+            "id" : 200,
+            "img": "images/cate_bodycare.jpg",
+            "title": "바디케어"
+        },
+        {
+            "id" : 300,
+            "img": "images/cate_lifestyle.jpg",
+            "title": "라이프스타일"
+        },
+        {
+            "id" : 400,
+            "img": "images/cate_set.jpg",
+            "title": "세트"
+        }
+    ],
+    "subCategory": [
+        {
+            "id" : "001",
+            "title": "선케어"
+        },
+        {
+            "id" : "002",
+            "title": "세럼"
+        },
+        {
+            "id" : "003",
+            "title": "젤/크림"
+        },
+        {
+            "id" : "004",
+            "title": "토너/에센스"
+        },
+        {
+            "id" : "005",
+            "title": "클렌저"
+        },
+        {
+            "id" : "006",
+            "title": "각질제거"
+        },
+        {
+            "id" : "007",
+            "title": "마스크팩"
+        },
+        {
+            "id" : "008",
+            "title": "기타"
+        }
+    ]
+}

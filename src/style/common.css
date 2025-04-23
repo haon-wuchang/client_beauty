@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    font-weight: 300 400 500 600 700 800 900;
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+}
+
+li,
+p,
+button,
+div,
+span,
+input,
+textarea  {
+    font-family: 'Pretendard-Regular';
+    letter-spacing: -0.5px;
+}
+
+:root {
+    --color-lightgrey1 : rgb(230, 230, 230);
+    --color-lightgrey2 : rgb(170, 170, 170);
+    --color-grey : rgb(65, 65, 65);
+    --color-darkgrey : rgb(48, 47, 47);
+}
