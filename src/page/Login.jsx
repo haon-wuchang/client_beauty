@@ -86,7 +86,7 @@ export default function Login() {
     };
     /* 카카오 API연동 로그인 */
     const kakaoLogin = () =>{
-        const Rest_api_key = '3f5c49e05800584ba496c54e74152ab3';
+        const Rest_api_key = '0ca52b7ebd019e881131d2575aebbfc8';
         const redirect_uri = 'http://joseon-client.s3-website.ap-northeast-2.amazonaws.com/signup/redirect/kakao';
         const kakaoURL = `https://kauth.kakao.com/oauth/authorize?client_id=${Rest_api_key}&redirect_uri=${redirect_uri}&response_type=code`;
 
