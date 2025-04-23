@@ -37,7 +37,7 @@ export default function RedirectPage() {
             window.opener.postMessage({
               type: provider.toUpperCase() + '_LOGIN_SUCCESS',
               payload: data
-            }, "http://localhost:3000");
+            }, "http://joseon-client.s3-website.ap-northeast-2.amazonaws.com");
             console.log('[RedirectPage] postMessage 전송됨:', data);  
             window.close();
           }  

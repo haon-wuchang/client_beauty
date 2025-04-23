@@ -69,7 +69,7 @@ export default function Login() {
     /* 네이버 API연동 로그인 */
     const NaverLogin = () => {
         const naver_client_id = "nd3jd_Q53Vfna4fdLlgx";
-        const callbackUrl = "http://localhost:3000/signup/redirect/naver"; // 네이버 개발자 센터에 등록한 URL
+        const callbackUrl = "http://joseon-client.s3-website.ap-northeast-2.amazonaws.com/signup/redirect/naver"; // 네이버 개발자 센터에 등록한 URL
         const state = Math.random().toString(36).substring(2, 15); // 랜덤 state 생성
         const NAVER_AUTH_URL = `https://nid.naver.com/oauth2.0/authorize?response_type=code&client_id=${naver_client_id}&state=${state}&redirect_uri=${callbackUrl}`;
         
@@ -87,7 +87,7 @@ export default function Login() {
     /* 카카오 API연동 로그인 */
     const kakaoLogin = () =>{
         const Rest_api_key = '3f5c49e05800584ba496c54e74152ab3';
-        const redirect_uri = 'http://localhost:3000/signup/redirect/kakao';
+        const redirect_uri = 'http://joseon-client.s3-website.ap-northeast-2.amazonaws.com/signup/redirect/kakao';
         const kakaoURL = `https://kauth.kakao.com/oauth/authorize?client_id=${Rest_api_key}&redirect_uri=${redirect_uri}&response_type=code`;
 
         const width = 500;
