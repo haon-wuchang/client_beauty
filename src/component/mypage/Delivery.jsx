@@ -216,7 +216,7 @@ const deliveryDelete = () => {
                 </ul>
                 <div className='mypage-delivery-form-check'>
                     <input type="checkbox" />
-                    <span>기본배송지 지정</span>
+                    <span onClick={ChangeOriginDelivery}>기본배송지 지정</span>
                 </div>
                 <div className='mypage-delivery-write-btns'>
                     <button onClick={() => {
